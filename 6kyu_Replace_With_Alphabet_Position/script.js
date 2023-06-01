@@ -5,6 +5,6 @@ function alphabetPosition(text) {
     if (!/[a-z]/.test(el)) return;
     textArr.push(el.charCodeAt() - 96);
   })
-  //test
+  //test 2
   return textArr.join(' ');
 }
